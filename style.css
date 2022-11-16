@@ -74,24 +74,31 @@ h2 {
 }
 
 @media screen and ( max-width: 800px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        padding: 0;
+    }
+   
     header {
-        margin: 17px 0px 73px 365px;
+        margin: 20px 0 19px 237px;
     }
 
     .link-header{
         display: none;
     }
     .image{
-        width: 455px;
+        width: 340px;
         height: auto;
-        margin-bottom: -830px;
+        margin-bottom: -666px;
         margin-left: 30px;
     }
     
     section {
         text-align: center;
-        margin-top: 50px;
-        margin-left: 20px;
+        margin-top: 11px;
+        margin-left: 46px;
      }
 
     h1 {
@@ -102,11 +109,13 @@ h2 {
     }
 
     p {
+        width: 300px;
         font-weight: 400;
         font-size: 18px;
         line-height: 33px;
         text-align: center;
         letter-spacing: 0.5px;
+        margin-bottom: 35px;
     }
 
     h2 {
